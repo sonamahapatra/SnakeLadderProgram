@@ -12,6 +12,8 @@ namespace SnakeLadderProgram
         {
             Console.WriteLine("Welcome To The Snake And Ladder Program");
             SnakeLadder snakeLadder= new SnakeLadder();
+            Console.WriteLine("Player Position :" + snakeLadder.PlayerPossition);
+            snakeLadder.PlayingTillWin();
             snakeLadder.Game();
             Console.ReadLine();
         }
